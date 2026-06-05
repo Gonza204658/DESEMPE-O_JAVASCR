@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    }
+  ],
+  "reservations": [
+    {
+      "workspace": "dfhsdf",
+      "date": "2026-50-96",
+      "startHour": "08:00",
+      "endHour": "10:00",
+      "reason": "bafdh",
+      "userId": "1",
+      "status": "cancelled",
+      "id": "vw2GJ9Bb1d4"
+    },
+    {
+      "workspace": "SALA 3",
+      "date": "2028-11-20",
+      "startHour": "11:53",
+      "endHour": "16:13",
+      "reason": "hola",
+      "userId": "1",
+      "status": "cancelled",
+      "id": "x-rGegXBxvI"
+    },
+    {
+      "workspace": "fgjerj",
+      "date": "2026-06-11",
+      "startHour": "10:32",
+      "endHour": "11:30",
+      "reason": "sdfhsdh",
+      "userId": "1",
+      "status": "cancelled",
+      "id": "865nseldzjA"
+    },
+    {
+      "workspace": "fhsgh",
+      "date": "2026-06-05",
+      "startHour": "10:32",
+      "endHour": "10:33",
+      "reason": "sfghs",
+      "userId": "1",
+      "status": "approved",
+      "id": "zJNz48vy5P8"
+    },
+    {
+      "workspace": "rsthsrtjh",
+      "date": "2026-06-03",
+      "startHour": "00:33",
+      "endHour": "10:32",
+      "reason": "sfhstrh",
+      "userId": "2",
+      "status": "pending",
+      "id": "YBqnJM02ng0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
